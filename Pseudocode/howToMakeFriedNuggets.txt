@@ -1,0 +1,25 @@
+START howToMakeFriedNuggets
+
+PREPARE items:
+	- frozen nuggets
+	- pan
+	- fried oil
+	- plate
+	- stove
+
+IF missing any items
+	GET missing items first
+
+PREPARE pan:
+	1. put the pan on the stove
+	2. turn on the stove
+	3. put fried oil
+	4. pour frozen nuggets in
+
+IF nuggets are ready
+	SERVE on a plate
+ELSE keep it cooking
+
+ENJOY while hot
+
+ENDS howToMakeFriedNuggets
