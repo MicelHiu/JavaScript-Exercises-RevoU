@@ -73,4 +73,5 @@ In class code examples
   * Syntax or keyword highlight:
     * Syntax Keywords: Uses the three-dot prefix `...` before the last parameter name (e.g., `...numbers`).
     * Braces Usage: The `...` syntax is placed exclusively within the function’s parentheses `(...)`. The gathered elements are then treated as an array within the function's curly braces {}, allowing for the use of array methods like `.reduce()`
- 
+
+other example: > https://github.com/djiwandou-p/js-advanced-functions-examples/

@@ -151,7 +151,6 @@ class Rectangle extends shape {
     }
 }
 ```
-
-
+Other example: https://github.com/djiwandou-p/js-es6-syntaxes-examples
  
 
