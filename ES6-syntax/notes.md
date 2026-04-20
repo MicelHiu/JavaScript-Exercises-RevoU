@@ -21,6 +21,7 @@ PI = 4; // error : assignment to a constant variable
 ## Template Literals
 - allow for easy string interpolation (jadi mudah memasukan variabel ke dalam string)
 - support multi line strings
+- pakai backtick ( ` ). Jadi udah ga pake + + lagi ("nama saya " + nama)
 ```
 const name = "John";
 const age = 25;

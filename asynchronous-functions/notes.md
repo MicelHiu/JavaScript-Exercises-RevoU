@@ -65,13 +65,14 @@ fetchedData()
         console.log("Retry or handle the error");
     });
 ```
+- pake then/catch/finally
 
 ## Async/Await
 - a syntatic sugar built on top of promises.
 - allows writing asynchronous code in a more synchronous-looking way.
 - melibatkan promise
 - syntax ini bisa digunakan untuk menggantikan then/catch
-- bisa juga di resolve pake try/catch
+- bisa juga di resolve error pake try/catch
 - contoh:
 ```
 async function fetchData() {
