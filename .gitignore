@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# DS
+.DS_Store
+
+# Logs
+*.log
+
+# Compiled JavaScript Output
+TypeScript/**/*.js
+dist/
