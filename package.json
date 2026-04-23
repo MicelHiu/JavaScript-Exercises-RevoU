@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,21 @@
   "author": "Michelle Hiu",
   "license": "ISC",
   "description": "",
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/**/tests/**/*.test.ts"
+    ],
+    "transform": {
+      "^.+\\.ts$": [
+        "ts-jest"
+      ]
+    }
+  },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.9",
     "typescript": "^6.0.3"
   }
 }

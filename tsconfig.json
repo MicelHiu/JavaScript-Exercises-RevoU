@@ -8,7 +8,9 @@
     "rootDir": "./TypeScript",
     "strict": true,
     "lib": ["esnext", "dom"],
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["jest"],
+    "isolatedModules": true
   },
   "include": ["TypeScript/**/*"],
   "exclude": ["node_modules", "dist"]
